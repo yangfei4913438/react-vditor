@@ -1,9 +1,9 @@
-
+import MarkdownEditor from 'src/MarkdownEditor/MarkdownEditor';
 
 const App = () => {
   return (
     <div className={'mx-8'}>
-      <span>222</span>
+      <MarkdownEditor />
     </div>
   );
 };
